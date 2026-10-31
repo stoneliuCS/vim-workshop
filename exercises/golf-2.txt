@@ -1,0 +1,8 @@
+TODO buy spindrift
+DONE learn hjkl
+TODO teach vim
+DONE quit vim (finally)
+TODO make treats
+DONE escape insert mode
+TODO convert one friend
+DONE stop using arrow keys

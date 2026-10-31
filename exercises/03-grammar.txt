@@ -1,0 +1,25 @@
+THE GRAMMAR: verb + count + noun.
+
+  verbs:   d delete    c change    y yank (copy)    p put (paste)
+  nouns:   any motion you already know: w b e 0 $ gg G j k
+
+  dw    delete word            d$    delete to end of line
+  c2w   change two words       yy    yank the whole line (doubled = line)
+  dd    delete the line        p     put it back below
+
+Try it:
+  1. Delete the word "very" with dw:
+       Vim is very very fast.
+
+  2. Change "slow" to "fast" with cw:
+       My editor is slow.
+
+  3. Delete from "BUT" to the end of the line with d$:
+       Keep this part BUT throw away everything here.
+
+  4. Duplicate this line with yy then p.
+
+  5. Delete these three lines at once with 3dd:
+       delete me
+       delete me
+       delete me

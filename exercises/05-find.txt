@@ -1,0 +1,17 @@
+FIND AND TILL: jump to a character on the line.
+
+  f,    find the next ","             F,    find backwards
+  t,    go till (right before) ","    T,    till backwards
+  ;     repeat the last f/t           ,     repeat it the other way
+
+Combine with verbs: dt, = "delete till comma".
+
+Try it:
+  1. Jump to each comma using f, then ; ; ;
+       apples, bananas, cherries, dates, elderberries
+
+  2. From the start of the line, delete up to (not including) the "=" with dt=:
+       thisIsAVeryLongVariableName = 42
+
+  3. Change everything up to the period with ct.:
+       Vim is a text editor.

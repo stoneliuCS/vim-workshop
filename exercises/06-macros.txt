@@ -1,0 +1,42 @@
+MACROS: record once, replay forever.
+
+  qa      start recording into register a
+  q       stop recording
+  @a      replay it          30@a   replay it 30 times
+
+Turn every line below into:   { name: "Ada Lovelace", born: 1815 },
+
+  Put the cursor on the "Ada" line, then type:
+    qa  I{ name: "<Esc>  f,  s", born: <Esc>  A },<Esc>  j  q
+  Then 29@a and watch.
+
+Ada Lovelace,1815
+Alan Turing,1912
+Grace Hopper,1906
+John von Neumann,1903
+Claude Shannon,1916
+Edsger Dijkstra,1930
+Donald Knuth,1938
+Barbara Liskov,1939
+Ken Thompson,1943
+Dennis Ritchie,1941
+Bill Joy,1954
+Bram Moolenaar,1961
+Linus Torvalds,1969
+Margaret Hamilton,1936
+John McCarthy,1927
+Frances Allen,1932
+Tim Berners-Lee,1955
+Richard Stallman,1953
+Guido van Rossum,1956
+Bjarne Stroustrup,1950
+Radia Perlman,1951
+Leslie Lamport,1941
+Tony Hoare,1934
+Niklaus Wirth,1934
+Brian Kernighan,1942
+Alan Kay,1940
+Vint Cerf,1943
+Shafi Goldwasser,1958
+Yukihiro Matsumoto,1965
+James Gosling,1955

@@ -1,0 +1,19 @@
+MODES: Normal is home. Everything else is a visit.
+
+  i       go to Insert mode (type text)
+  <Esc>   go back home to Normal mode
+  v       Visual mode (select stuff)
+  :       Command mode (:w save, :q quit, :q! quit without saving)
+
+Try it:
+  1. Put your cursor on the line below, press i, type your name, press <Esc>.
+
+     My name is:
+
+  2. Press o to open a new line below this one and type "hi", then <Esc>.
+
+  3. Press A on this line to jump to the end and type " (done)", then <Esc>.
+
+  4. Press u to undo. Press <C-r> to redo. Nothing is ever really lost.
+
+  5. Type :q! and press Enter. Congrats, you can now leave Vim.

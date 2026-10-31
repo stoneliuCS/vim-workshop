@@ -1,0 +1,26 @@
+MOTIONS: move without the arrow keys or the mouse.
+
+  h j k l    left down up right   (j looks like a down arrow)
+  w  b  e    next word, back a word, end of word
+  0  $       start of line, end of line
+  gg  G      top of file, bottom of file
+  5j         counts work on everything: move 5 lines down
+
+Try it:
+  1. Use only h j k l to land on the X:
+
+       . . . . . . . . . .
+       . . . . . . . X . .
+       . . . . . . . . . .
+
+  2. Use w and b to hop between the words on this line, then e to ride the ends.
+
+  3. On this line, press 0, then $, then 0 again.
+
+  4. Press G to fly to the bottom, then gg to come back.
+
+  5. From here, type 3j to jump exactly three lines down.
+
+     one
+     two
+     three  <- you should be here
