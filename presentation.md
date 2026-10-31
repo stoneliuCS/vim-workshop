@@ -37,7 +37,7 @@ VIM, otherwise known as (VI) Improved is a modal based editor known for its spee
 2. Motions: moving without a mouse
 3. The grammar: Vim is a *language*
 4. Power moves: the dot, search, macros
-5. Vim Golf (there are treats)
+5. Vim Golf
 6. Why any of this matters
 
 <!-- stop -->
@@ -262,8 +262,6 @@ Live demo: `:Practice 06-macros`
 # Vim Golf
 
 Turn the start text into the target in the **fewest keystrokes**.
-
-The counter is watching. Fewest keys wins a treat.
 
 <!-- stop -->
 

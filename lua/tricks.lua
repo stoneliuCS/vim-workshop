@@ -28,9 +28,9 @@ return {
   },
   {
     label = "<C-v>  block insert on every line",
-    lines = { "spindrift", "treats", "laptop", "curiosity" },
+    lines = { "spindrift", "laptop", "curiosity" },
     cursor = { 1, 0 },
-    steps = { "<C-v>3jI- [ ] <Esc>" },
+    steps = { "<C-v>2jI- [ ] <Esc>" },
   },
   {
     label = "g<C-a>  count up a selection",
