@@ -58,10 +58,6 @@ You are now ahead of a statistically significant number of developers.
 
 # Why Vim?
 
-Not because it's old. Because the *ideas* travel.
-
-<!-- stop -->
-
 - VS Code: **VSCodeVim**
 - JetBrains: **IdeaVim**
 - Chrome / Firefox: **Vimium**
